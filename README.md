@@ -1,16 +1,18 @@
-# responsive_dashboard
+## Screenshots 📸
 
-A new Flutter project.
+### 🖥️ Desktop Layout
+![Desktop](desktop.png)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### 📑 Tablet View
+| Tablet 1 | Tablet 2 |
+|---|---|
+| ![Tablet 1](tablet1.png) | ![Tablet 2](tablet2.png) |
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📱 Mobile View
+| Mobile 1 | Mobile 2 |
+|---|---|
+| <img src="mobile1.png" width="250"> | <img src="mobile2.png" width="250"> |
