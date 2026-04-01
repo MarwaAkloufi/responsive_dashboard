@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+import 'package:responsuve_dash_board/models/drawer_item_model.dart';
+import 'package:responsuve_dash_board/views/widgets/active_drawer_item.dart';
+import 'package:responsuve_dash_board/views/widgets/in_active_drawer_item.dart';
+
+class DrawerItem extends StatelessWidget {
+   DrawerItem({super.key,required this.drawerItemModel,required this.isActive});
+final DrawerItemModel drawerItemModel;
+bool isActive;
+  @override
+  Widget build(BuildContext context) {
+    return isActive ?
+    ActiveDrawerItem(drawerItemModel: drawerItemModel)
+    :InActiveDrawerItem(drawerItemModel: drawerItemModel);
+     
+  }
+}
